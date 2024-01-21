@@ -1,0 +1,231 @@
+.search-container {
+  width: 360px;
+  background-color: #131313;
+  min-height: 100vh;
+}
+.search-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.header-container {
+  width: 360px;
+  background-color: #131313;
+  opacity: 80%;
+  padding: 24px 32px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  width: 100px;
+  height: 27px;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.burger-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-item {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.menu-icon {
+  border-radius: 20px;
+}
+.link-element {
+  text-decoration: none;
+}
+.logo-and-headings {
+  display: none;
+}
+.logo-and-headings {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.nav-heading {
+  display: none;
+}
+.avatar-image {
+  display: none;
+}
+.active {
+  font-weight: 600;
+}
+.input-and-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 144px;
+  height: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 4px, 10px, 4px, 8px;
+  width: 100%;
+}
+.input {
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  height: 17px;
+  width: 54px;
+  font-size: 12px;
+  line-height: 15.64px;
+  color: #babdc2;
+  background-color: #0d0d0d;
+  width: 80%;
+}
+.search-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #131313;
+  color: #ffffff;
+  width: 20%;
+  font-size: 16px;
+  border-left: 1px solid #131313;
+}
+.search-list {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.search-item-element {
+  margin-right: 13px;
+  margin-bottom: 16px;
+}
+.search-element-image {
+  width: 90px;
+  height: 100px;
+  border-radius: 8px;
+}
+.no-search-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.no-search-image {
+  width: 209.52px;
+  height: 176px;
+}
+.no-search-text {
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 1365px;
+  }
+  .poster-container {
+    width: 1365px;
+    min-height: 100vh;
+  }
+  .header-container {
+    width: 1365px;
+    padding: 32px 165px 32px 165px;
+  }
+  .nav-logo {
+    height: 39px;
+    width: 135px;
+  }
+  .nav-heading {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-left: 48px;
+  }
+  .burger-button {
+    display: none;
+  }
+  .avatar-image {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin-left: 32px;
+  }
+  .active {
+    font-weight: 700;
+  }
+  .input-and-search-container {
+    width: 264px;
+    height: 40px;
+    padding: 8px, 16px, 8px, 16px;
+  }
+  .input {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: transparent;
+    opacity: 80%;
+  }
+  .search-button {
+    font-size: 20px;
+    background-color: #131313;
+  }
+  .search-list {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .search-item-element {
+    margin-right: 32px;
+    margin-bottom: 24px;
+  }
+  .search-element-image {
+    width: 255px;
+    height: 170px;
+  }
+  .no-search-results {
+    margin-top: 70px;
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+  .no-search-image {
+    width: 401.73px;
+    height: 300px;
+  }
+  .no-search-text {
+    font-size: 24px;
+    line-height: 31.27px;
+  }
+}

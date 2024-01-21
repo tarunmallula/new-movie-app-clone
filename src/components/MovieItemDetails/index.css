@@ -1,0 +1,285 @@
+.each-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.movie-details-container {
+  width: 360px;
+}
+.movie-header {
+  margin: 32px;
+  margin-bottom: 0px;
+}
+.movie-title {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.91px;
+  margin-bottom: 0px;
+}
+.runtime-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.movie-runtime {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.85px;
+  margin-right: 16px;
+}
+.censor {
+  width: 51px;
+  height: 25px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 2px, 12px, 2px, 12px;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.85px;
+  margin-right: 16px;
+  text-align: center;
+}
+.movie-overview {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+  margin-top: 0px;
+}
+.movie-play-button {
+  width: 76px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px, 24px, 8px, 24px;
+  background-color: #ffffff;
+  color: #171f46;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.movie-middle {
+  background-color: #131313;
+  margin-top: 0px;
+}
+.genres-audio-rating {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.genre-container {
+  margin-right: 26px;
+  margin-bottom: 20px;
+}
+.genre-heading {
+  color: #64748b;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.24px;
+}
+.each-genre {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style-type: none;
+  margin-top: 0px;
+}
+.movie-down {
+  margin: 32px;
+  margin-top: 0px;
+}
+.movie-down-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.06px;
+  margin-top: 0px;
+}
+.similar-movie-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-movie-element {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.similar-movie-image {
+  width: 90px;
+  height: 64px;
+  border-radius: 8px;
+}
+.movie-item-error-container {
+  background-color: #0d0d0d;
+  height: 90px;
+  width: 296px;
+  padding-left: 32px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+.movie-item-error-image {
+  width: 16px;
+  height: 16px;
+}
+.movie-item-error-title {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.03px;
+}
+.movie-item-error-button {
+  height: 24px;
+  width: 69px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px 4px 12px;
+  color: #171f46;
+  font-family: 'HK Grotesk';
+  background-color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.date-className {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .movie-details-container {
+    width: 1365px;
+  }
+  .movie-header {
+    margin: 165px;
+    margin-bottom: 0px;
+  }
+  .movie-title {
+    font-size: 48px;
+    line-height: 62.54px;
+    margin-bottom: 0px;
+  }
+  .movie-runtime {
+    font-size: 18px;
+    line-height: 23.45px;
+    margin-right: 18px;
+  }
+  .censor {
+    width: 55px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 23.45px;
+    margin-right: 18px;
+    text-align: center;
+  }
+  .movie-overview {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 0px;
+  }
+  .movie-play-button {
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .responsive-movie-play-button {
+    width: 74px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px, 24px, 8px, 24px;
+    background-color: #ffffff;
+    color: #171f46;
+    font-family: 'HK Grotesk';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .movie-middle {
+    background-color: #131313;
+    margin-top: 0px;
+  }
+  .genres-audio-rating {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+  .genre-container {
+    margin-right: 150px;
+    margin-bottom: 100px;
+  }
+  .genre-heading {
+    color: #94a3b8;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .each-genre {
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    margin-top: 0px;
+  }
+  .movie-down {
+    margin: 165px;
+    margin-top: 0px;
+  }
+  .movie-down-heading {
+    font-size: 24px;
+    line-height: 31.27px;
+  }
+  .similar-movie-element {
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .similar-movie-image {
+    width: 255px;
+    height: 170px;
+  }
+  .movie-item-error-container {
+    height: 170px;
+    width: 1109px;
+    margin-left: 30px;
+    border-radius: 8px;
+  }
+  .movie-item-error-image {
+    width: 32px;
+    height: 32px;
+  }
+  .movie-item-error-title {
+    font-size: 14px;
+    line-height: 18.24px;
+  }
+  .movie-item-error-button {
+    height: 32px;
+    width: 85px;
+    padding: 4px 16px 4px 16px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}

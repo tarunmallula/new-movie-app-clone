@@ -1,0 +1,143 @@
+.account-container {
+  width: 360px;
+  background-color: #131313;
+  padding-bottom: 32px;
+  min-height: 100vh;
+}
+.user-details-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+.account-title {
+  color: #131313;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+}
+.border {
+  height: 2px;
+  width: 296px;
+  border-radius: 10px;
+  color: #cbd5e1;
+}
+.user-name {
+  color: #94a3b8;
+  font-family: 'HK Grotesk';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.45px;
+}
+.user-email {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+  margin-left: 11px;
+}
+.mask-password {
+  color: #64748b;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+  margin-left: 117px;
+}
+.premium {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+  margin-left: 23px;
+}
+.ultra {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.24px;
+  margin-left: 23px;
+  height: 25px;
+  width: 64px;
+  padding: 2px, 4px, 2px, 4px;
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+  margin-left: 9px;
+}
+.logout-button {
+  height: 40px;
+  width: 89px;
+  align-self: center;
+  border: none;
+  border-radius: 4px;
+  padding: 8px, 20px, 8px, 20px;
+  background-color: #e50914;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'HK Grotesk';
+  line-height: 24px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+}
+.align-container {
+  display: flex;
+}
+.ultra-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .account-container {
+    width: 1365px;
+  }
+  .user-details-container {
+    padding-top: 50px;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .account-title {
+    font-family: 'HK Grotesk';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.91px;
+  }
+  .border {
+    width: 100%;
+    color: #cbd5e1;
+  }
+  .user-name {
+    font-size: 24px;
+    line-height: 31.27px;
+  }
+  .user-email {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.27px;
+    margin-left: 24px;
+  }
+  .mask-password {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.27px;
+    margin-left: 166px;
+  }
+  .premium {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.27px;
+    margin-left: 41px;
+  }
+  .ultra {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.45px;
+    margin-left: 16px;
+    height: 27px;
+    width: 79px;
+    margin-left: 9px;
+  }
+}

@@ -1,0 +1,129 @@
+.trending-container {
+  padding: 16px 32px 16px 32px;
+}
+.slick-movie-img {
+  margin: 0px 5px;
+  height: 90px;
+  width: 64px;
+  border-radius: 10px;
+}
+.react-slick-li-item {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.slick-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-slick-item {
+  background: transparent;
+}
+
+.slick-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trending-loader-container {
+  height: 90px;
+  background-color: #0d0d0d;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trending-error-container {
+  background-color: #0d0d0d;
+  height: 90px;
+  width: 296px;
+  padding-left: 32px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trending-error-image {
+  width: 16px;
+  height: 16px;
+}
+.trending-error-title {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.03px;
+}
+.trending-error-button {
+  height: 24px;
+  width: 69px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px 4px 12px;
+  color: #171f46;
+  font-family: 'HK Grotesk';
+  background-color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+@media (min-width: 567px) {
+  .slick-movie-img {
+    margin: 0px 5px;
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slick-movie-img {
+    margin: 0px 15px;
+    height: 120px;
+    width: 120px;
+  }
+  .trending-container {
+    padding: 40px 135px 40px 135px;
+  }
+  .trending-loader-container {
+    margin-left: 25px;
+    height: 170px;
+    border-radius: 8px;
+  }
+  .trending-error-container {
+    height: 170px;
+    width: 1109px;
+    margin-left: 30px;
+    border-radius: 8px;
+  }
+  .trending-error-image {
+    width: 32px;
+    height: 32px;
+  }
+  .trending-error-title {
+    font-size: 14px;
+    line-height: 18.24px;
+  }
+  .trending-error-button {
+    height: 32px;
+    width: 85px;
+    padding: 4px 16px 4px 16px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slick-movie-img {
+    margin: 0px 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
+}

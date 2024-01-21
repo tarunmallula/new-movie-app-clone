@@ -1,0 +1,151 @@
+.bg-container {
+  background-color: #131313;
+  padding: 32px;
+  width: 360px;
+  height: 640px;
+}
+.movie-logo {
+  width: 100px;
+  height: 27px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #ffffff;
+  margin-top: 164px;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.input {
+  width: 296px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 12px;
+  background-color: #333333;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  font-family: 'Roboto';
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+  outline: none;
+}
+.error-msg {
+  font-family: 'Roboto';
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+  .button1 {
+    width: 296px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 125px 8px 125px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+  }
+  .button2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://res.cloudinary.com/dzcltcukw/image/upload/v1705057897/movies-app-bg-img.png');
+    width: 1440px;
+    height: 1024px;
+    padding-top: 48px;
+    padding-left: 165px;
+  }
+  .movie-logo {
+    width: 180px;
+    height: 52px;
+  }
+  .form-container {
+    background-color: #0c0b10;
+    border: none;
+    border-radius: 8px;
+    opacity: 80%;
+    width: 456px;
+    height: 440px;
+    margin-top: 244px;
+    margin-left: 327px;
+  }
+  .heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 84px;
+  }
+  .label {
+    align-self: flex-start;
+    margin-left: 48px;
+  }
+  .input {
+    width: 360px;
+    height: 40px;
+    margin-left: 48px;
+  }
+  .button1 {
+    display: none;
+  }
+  .button2 {
+    width: 360px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 163px 8px 163px;
+    background-color: #e50914;
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    margin-left: 48px;
+    text-align: center;
+  }
+  .error-msg {
+    font-family: 'Roboto';
+    color: #dc2626;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.24px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+  }
+}
